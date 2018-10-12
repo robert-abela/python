@@ -1,5 +1,5 @@
 # Python course lessons
-1. [Introduction] (https://github.com/robert-abela/python/blob/master/lessons/01.md)
+1. [Introduction](https://github.com/robert-abela/python/blob/master/lessons/01.md)
    1. Automation, programming paradigms, scripts vs. programs, setting up
 1. Hello world
    1. First script, data types, strings, lists, using libraries
