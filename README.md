@@ -1,4 +1,13 @@
 # Python course lessons
+
+<!--
+Learning Outcomes
+1. Explain an approach to programming to be able to solve common automation problems, and how scripting languages fit into this approach.
+2. Use the scripting language to build desktop/console applications to automate common tasks.
+3. Use the scripting language to execute external applications on the installed computer system as well as to schedule tasks to be run at specific intervals.
+4. Build basic web applications for remote control of automated tasks.
+-->
+
 1. [Introduction](https://github.com/robert-abela/python/blob/master/lessons/01.md)  
 Automation, programming paradigms, scripts vs. programs, setting up
 1. [Hello world](https://github.com/robert-abela/python/blob/master/lessons/02.md)  
