@@ -12,12 +12,15 @@ aString = 'Here is a string'
 print(aString)
 anotherString = "Here's another one"
 print(anotherString)
+complexString = '''This string has a single (') and a double (") quote.'''
+print(complexString)
 
 # Adding variables
+
 one = 1
-two = 2
-three = one + two
-print(three)
+ten = 15 - 5
+eleven = one + ten
+print(eleven)
 
 createdBy = "Python was created by"
 guido = "Guido van Rossum"
