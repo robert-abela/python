@@ -8,7 +8,7 @@ Learning Outcomes
 
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
-# Python course lessons
+# Course lessons
 1. [Introduction](lessons/01.md)  
 Automation, programming paradigms, scripts vs. programs, setting up
 1. [Hello world](lessons/02.md)  
