@@ -1,5 +1,3 @@
-# Python course lessons
-
 <!--
 Learning Outcomes
 1. Explain an approach to programming to be able to solve common automation problems, and how scripting languages fit into this approach.
@@ -10,6 +8,7 @@ Learning Outcomes
 
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
+# Python course lessons
 1. [Introduction](lessons/01.md)  
 Automation, programming paradigms, scripts vs. programs, setting up
 1. [Hello world](lessons/02.md)  
