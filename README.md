@@ -11,7 +11,7 @@ Learning Outcomes
 1. [Introduction](https://github.com/robert-abela/python/blob/master/lessons/01.md)  
 Automation, programming paradigms, scripts vs. programs, setting up
 1. [Hello world](https://github.com/robert-abela/python/blob/master/lessons/02.md)  
-First script, data types, strings, lists, using libraries
+First scripts, data types, strings, lists and similar structures, using libraries
 1. [Control structures](https://github.com/robert-abela/python/blob/master/lessons/03.md)  
 Conditions, loops
 1. [Functions](https://github.com/robert-abela/python/blob/master/lessons/04.md)  
