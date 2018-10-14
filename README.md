@@ -8,28 +8,30 @@ Learning Outcomes
 4. Build basic web applications for remote control of automated tasks.
 -->
 
-1. [Introduction](https://github.com/robert-abela/python/blob/master/lessons/01.md)  
+![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+
+1. [Introduction](lessons/01.md)  
 Automation, programming paradigms, scripts vs. programs, setting up
-1. [Hello world](https://github.com/robert-abela/python/blob/master/lessons/02.md)  
+1. [Hello world](lessons/02.md)  
 First scripts, data types, strings, lists and similar structures, using libraries
-1. [Control structures](https://github.com/robert-abela/python/blob/master/lessons/03.md)  
+1. [Control structures](lessons/03.md)  
 Conditions, loops
-1. [Functions](https://github.com/robert-abela/python/blob/master/lessons/04.md)  
+1. [Functions](lessons/04.md)  
 Variable scope, functions, arguments
-1. [More advanced topics](https://github.com/robert-abela/python/blob/master/lessons/05.md)  
+1. [More advanced topics](lessons/05.md)  
 Proper documentation, packages, exception handling, comments
-1. [Menu-driven apps](https://github.com/robert-abela/python/blob/master/lessons/06.md)  
+1. [Menu-driven apps](lessons/06.md)  
 Console scripts with user interaction
-1. [File operations](https://github.com/robert-abela/python/blob/master/lessons/07.md)  
+1. [File operations](lessons/07.md)  
 Reading from/writing to a file, listing directory contents, searching, sorting
-1. [Web technologies](https://github.com/robert-abela/python/blob/master/lessons/08.md)  
+1. [Web technologies](lessons/08.md)  
 Client/server architecture, HTTP, HTML, JS, CSS
-1. [A simple web server](https://github.com/robert-abela/python/blob/master/lessons/09.md)  
+1. [A simple web server](lessons/09.md)  
 Create a simple web server in Python
-1. [Final topics](https://github.com/robert-abela/python/blob/master/lessons/10.md)  
+1. [Final topics](lessons/10.md)  
 Scheduled tasks, exit codes, command line arguments
-1. [Project](https://github.com/robert-abela/python/blob/master/lessons/11.md)  
+1. [Project](lessons/11.md)  
 Detailed explaination of home assignment
-1. [Question & answer](https://github.com/robert-abela/python/blob/master/lessons/12.md)  
+1. [Question & answer](lessons/12.md)  
 Questions and issues about project
 1. Exam
