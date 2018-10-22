@@ -9,28 +9,29 @@ Learning Outcomes
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 # Course lessons
-1. [Introduction](lessons/01.md)  
+1. [Introduction](lessons/01.md) (22 Oct)  
 Automation, programming paradigms, scripts vs. programs, setting up
-1. [Hello world](lessons/02.md)  
+1. [Hello world](lessons/02.md) (24 Oct)  
 First scripts, data types, strings, lists and similar structures, using libraries
-1. [Control structures](lessons/03.md)  
+1. [Control structures](lessons/03.md) (29 Oct)  
 Conditions, loops
-1. [Functions](lessons/04.md)  
+1. [Functions](lessons/04.md) (31 Oct)  
 Variable scope, functions, arguments
-1. [More advanced topics](lessons/05.md)  
+1. [More advanced topics](lessons/05.md) (05 Nov)  
 Proper documentation, packages, exception handling, comments
-1. [Menu-driven apps](lessons/06.md)  
+1. [Menu-driven apps](lessons/06.md) (07 Nov)  
 Console scripts with user interaction
-1. [File operations](lessons/07.md)  
+1. [File operations](lessons/07.md) (12 Nov)  
 Reading from/writing to a file, listing directory contents, searching, sorting
-1. [Web technologies](lessons/08.md)  
+1. [Web technologies](lessons/08.md) (14 Nov)  
 Client/server architecture, HTTP, HTML, JS, CSS
-1. [A simple web server](lessons/09.md)  
+1. [A simple web server](lessons/09.md) (19 Nov)  
 Create a simple web server in Python
-1. [Final topics](lessons/10.md)  
+1. [Final topics](lessons/10.md) (21 Nov)  
 Scheduled tasks, exit codes, command line arguments
-1. [Project](lessons/11.md)  
+1. [Project](lessons/11.md) (26 Nov)  
 Detailed explaination of home assignment
-1. [Question & answer](lessons/12.md)  
+1. Exam (28 Nov)  
+1. [Question & answer](lessons/12.md) (03 Dec)  
 Questions and issues about project
-1. Exam
+
