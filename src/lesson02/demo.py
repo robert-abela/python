@@ -27,12 +27,12 @@ print(pixel)
 
 car = {}
 atr = input('attribute 1: ')
-val = input('value 1:')
+val = input('value 1:     ')
 car[atr] = val
 atr = input('attribute 2: ')
-val = input('value 2:')
+val = input('value 2:     ')
 car[atr] = val
 atr = input('attribute 3: ')
-val = input('value 3:')
+val = input('value 3:     ')
 car[atr] = val
 print(car)
