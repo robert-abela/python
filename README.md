@@ -32,6 +32,7 @@ Scheduled tasks, exit codes, command line arguments
 1. [Project](lessons/11.md) (26 Nov)  
 Detailed explaination of home assignment
 1. Exam (28 Nov)  
+[Practice problems](https://adriann.github.io/programming_problems.html)
 1. [Question & answer](lessons/12.md) (03 Dec)  
 Questions and issues about project
 
