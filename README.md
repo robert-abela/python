@@ -18,7 +18,7 @@ Conditions, loops
 1. [Functions](lessons/04.md) (31 Oct)  
 Variable scope, functions, arguments
 1. [More advanced topics](lessons/05.md) (05 Nov)  
-Proper documentation, packages, exception handling, comments
+Proper documentation, modules, exception handling, comments
 1. [Menu-driven apps](lessons/06.md) (07 Nov)  
 Console scripts with user interaction
 1. [File operations](lessons/07.md) (12 Nov)  
