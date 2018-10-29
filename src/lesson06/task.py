@@ -38,7 +38,19 @@ def lotto():
     print('Lotto results:', result)
 
 def word_counter():
-    print('Not implemented yet')
+    chars = alphabet = vowels = words = 0
+    user_string = input('Enter some text: ')
+    for ch in user_string.lower():
+        chars += 1
+        if ch.isalpha():
+            alphabet += 1
+        if ch in 'aeiou':
+            vowels += 1
+        if ch == ' ':
+            words += 1
+
+    print('%d words, %d characters, %d alphabetical & %d vowels' %
+          ((words+1), chars, alphabet, vowels))
 
 def my_feature():
     print('Not implemented yet')
