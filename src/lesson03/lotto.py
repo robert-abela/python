@@ -26,3 +26,5 @@ while len(result) < 5:
     new_num = random.randint(1,90)
     if new_num not in result:
         result.append(new_num)
+
+print('Lotto results:', result)
