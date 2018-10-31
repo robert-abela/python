@@ -4,9 +4,7 @@ def odds(items):
   for item in items:
     if use_this_item:
       filtered.append(item)
-      use_this_item = False
-    else:
-      use_this_item = True
+    use_this_item = not use_this_item
   
   return filtered
   
