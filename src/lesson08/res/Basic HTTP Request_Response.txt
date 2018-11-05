@@ -1,0 +1,5 @@
+title Basic HTTP Request/Response
+ 
+Browser->WebServer: GET /page.html /HTTP1.1     
+note right of WebServer: Web server fetches \n(or builds) a response
+WebServer->Browser: HTTP Response (HTML)
