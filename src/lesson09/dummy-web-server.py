@@ -1,7 +1,6 @@
-#!/usr/bin/env python
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse
-import time
+from time import asctime
 from list import htmlList
 
 hostName = "localhost"
@@ -25,10 +24,10 @@ if __name__ == "__main__":
         html = open("index.html", "r")
         indexHTML = html.read()
         myServer = HTTPServer((hostName, hostPort), MyServer)
-        print(time.asctime(), "Start - %s:%s" % (hostName, hostPort))
+        print(asctime(), "Start - %s:%s" % (hostName, hostPort))
         myServer.serve_forever()
     except FileNotFoundError:
-        print(time.asctime(), "Start failed, index.html not found")
+        print(asctime(), "Start failed, index.html not found")
     except KeyboardInterrupt:
         myServer.server_close()
-        print(time.asctime(), "Stop - %s:%s" % (hostName, hostPort))
+        print(asctime(), "Stop - %s:%s" % (hostName, hostPort))
