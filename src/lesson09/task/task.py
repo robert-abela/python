@@ -2,12 +2,13 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse
 from time import asctime
 from list import list_files
-from os.path import isfile
+from urllib.parse import unquote
 
 hostName = "localhost"
 hostPort = 80
 
 def send_file(server, request_query):
+    request_query = unquote(request_query) #hello%20bye.js -> hello bye.js
     try:
         file = open(request_query, "r")
         response_file = file.read()

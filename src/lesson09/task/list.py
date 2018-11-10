@@ -9,7 +9,7 @@ def list_files(server):
     html = "<html><body><ol>"
     for item in fullList:
         if os.path.isfile(item) and item.endswith('.py'):
-            html = html + "<li><a href=" + item + " >" + item + "</a></li>"
+            html = html + '<li><a href="' + item + '" >' + item + '</a></li>'
     html + "</ol></body></html>"
 
     server.wfile.write(bytes(html, "utf-8"))
