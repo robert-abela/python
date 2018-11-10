@@ -1,7 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse
 from time import asctime
-from list import list_files
+from mymodule import list_files
 from urllib.parse import unquote
 
 hostName = "localhost"
