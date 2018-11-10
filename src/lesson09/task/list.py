@@ -1,10 +1,16 @@
 import os, sys
 
-def htmlList():
-    html = "<html><body><ol>"
+def list_files(server):
+    server.send_response(200)
+    server.send_header("Content-type", "text/html")
+    server.end_headers()
     fullList = os.listdir('.')
-    for item in fullList:
-        if os.path.isfile(item):
-            html = html + "<li>" + item + "</li>"
 
-    return html + "</ol></body></html>"
+    html = "<html><body><ol>"
+    for item in fullList:
+        if os.path.isfile(item) and item.endswith('.py'):
+            html = html + "<li><a href=" + item + " >" + item + "</a></li>"
+    html + "</ol></body></html>"
+
+    server.wfile.write(bytes(html, "utf-8"))
+
