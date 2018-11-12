@@ -1,5 +1,5 @@
 email = input('Enter email: ')
-if len(email) < 7:
+if len(email) < 6:
     print('Error: mail address too short')
 elif '@' not in email:
     print('Error: missing @')
@@ -9,8 +9,6 @@ elif '.' not in email:
     print('Error: missing .')
 elif email.startswith('.') or email.endswith('.'):
     print('Error: . at start or end')
-elif email.index('@') > email.index('.'):
-    print('Error: @ not before .')
 else:
     try :
         f = open('file.log', 'a')
