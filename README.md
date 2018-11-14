@@ -29,10 +29,11 @@ Client/server architecture, HTTP, HTML, JS, CSS
 Create a simple web server in Python
 1. [Final topics](lessons/10.md) (21 Nov)  
 Scheduled tasks, exit codes, command line arguments, final revision
-1. [Project](lessons/11.md) (26 Nov)  
+1. [Project](lessons/project.md) (26 Nov)  
 Detailed explaination of home assignment
 1. Exam (28 Nov)  
+90 minutes  
 [Practice problems](https://adriann.github.io/programming_problems.html)
-1. [Question & answer](lessons/12.md) (03 Dec)  
-Questions and issues about project
+1. Question & answer (03 Dec)  
+Questions and issues about project (90 minutes)
 
