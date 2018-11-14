@@ -23,7 +23,7 @@ Specifications:
 * Takes directory path a command line argument, this will be the base directory.
 
 ### Login Page (/login): 
-* Display a Login Page form with fields for email and password
+* Display a Login Page form (```login.html```) with input fields for email and password
 * If the credentials match one of the entries in ```users.csv``` show the welcome page
 * Show the login page again if login fails
 
