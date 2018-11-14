@@ -7,7 +7,7 @@ user1@mail.ru,Pazhalooysta
 user2@mail.in,Namaste
 ~~~
 Specifications:
-* Perform some basic validation on the email (at least check for 5 properties)
+* Perform some basic validation on the email, at least you should have 5 validation rules.
 * The password cannot be shorter than 5 characters and must contains 2 of the following:
   * lowercase letter
   * uppercase letter
