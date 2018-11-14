@@ -20,7 +20,16 @@ Write another script ```server.py``` that will act as a web server running on lo
 Specifications:
 * Listen only to GET requests
 * Show the login page by default
-Login Page (/login): 
+* Takes directory path a command line argument, this will be the base directory.
+
+### Login Page (/login): 
 * Display a Login Page form with fields for email and password
 * If the credentials match one of the entries in ```users.csv``` show the welcome page
 * Show the login page again if login fails
+
+### Welcome Page: 
+* Available only after valid login (no direct URL)
+* Contains the following links:
+  1. List of all base directory TXT files
+  2. List of the base directory TXT files that changed int he last 24 hours
+* Both lists should be made up of links that allows the user to download the files
