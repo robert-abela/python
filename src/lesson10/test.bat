@@ -1,0 +1,7 @@
+@ECHO OFF 
+
+CALL python user_exit.py
+
+IF %ERRORLEVEL% NEQ 0 (ECHO "SOMETHING WENT WRONG") ELSE (ECHO "NO PROBLEM")
+
+pause
