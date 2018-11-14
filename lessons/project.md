@@ -1,6 +1,6 @@
 # DRAFT - DO NOT START
 
-## Task 1
+## Task 1 - Registration
 Write a Python script called ```register_user.py``` that asks the user to enter an email and a password and appends them in ```users.csv``` in the following format:
 ~~~
 user1@mail.ru,Pazhalooysta
@@ -15,7 +15,7 @@ Specifications:
 * Keep asking the user to enter the details again, until they are valid
 * Use proper exit codes if something does wrong while using the CSV file
 
-## Task 2
+## Task 2 - Web Server
 Write another script ```server.py``` that will act as a web server running on localhost:8080  
 Specifications:
 * Listen only to GET requests
