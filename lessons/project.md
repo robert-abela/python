@@ -1,4 +1,4 @@
-# DRAFT - DO NOT START
+# DRAFT - Might still change
 
 ## Task 1 - Registration
 Write a Python script called ```register_user.py``` that asks the user to enter an email and a password and appends them in ```users.csv``` in the following format:
