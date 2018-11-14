@@ -22,10 +22,12 @@ Specifications:
 * Show the login page by default
 * Takes directory path a command line argument, this will be the base directory.
 
+### Credential validation
+Your script must contain a function called ```valid_creds(email, pw)``` that opens ```users.csv```, checks if any row matches the paameters and returns True/False accordingly
+
 ### Login Page (/login): 
-* Display a Login Page form (```login.html```) with input fields for email and password
-* If the credentials match one of the entries in ```users.csv``` show the welcome page
-* Show the login page again if login fails
+* Display a Login Page form (```login.html```) with input fields for email and password.
+* If the credentials match (using valid_creds) show the welcome page, else show  the login page again.
 
 ### Welcome Page: 
 * Available only after valid login (no direct URL)
