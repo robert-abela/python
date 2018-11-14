@@ -1,1 +1,26 @@
 # DRAFT - DO NOT START
+
+## Task 1
+Write a Python script called ```register_user.py``` that asks the user to enter an email and a password and appends them in ```users.csv``` in the following format:
+~~~
+user1@mail.ru,Pazhalooysta
+user2@mail.in,Namaste
+~~~
+Specifications:
+* Perform some basic validation on the email (at least check for 5 properties)
+* The password cannot be shorter than 5 characters and must contains 2 of the following:
+  * lowercase letter
+  * uppercase letter
+  * number
+* Keep asking the user to enter the details again, until they are valid
+* Use proper exit codes if something does wrong while using the CSV file
+
+## Task 2
+Write another script ```server.py``` that will act as a web server running on localhost:8080  
+Specifications:
+* Listen only to GET requests
+* Show the login page by default
+Login Page (/login): 
+* Display a Login Page form with fields for email and password
+* If the credentials match one of the entries in ```users.csv``` show the welcome page
+* Show the login page again if login fails
