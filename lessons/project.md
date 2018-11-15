@@ -31,11 +31,11 @@ Specifications:
 ### Credential validation
 Your script must contain a function called ```valid_creds(email, pw)``` that opens ```users.csv```, checks if any row matches the paameters and returns True/False accordingly
 
-### Login Page (/login): 
+### Login page (/login): 
 * Display a Login Page form (```login.html```) with input fields for email and password.
 * If the credentials match, using ```valid_creds()```, show the main page, else show the login page again.
 
-### Main Page: 
+### Main page: 
 * Available only after valid login (no direct URL)
 * Contains the following lists (using ```dirscanner``` module):
   1. List of all base directory TXT files
