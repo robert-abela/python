@@ -12,32 +12,36 @@ Specifications:
   * lowercase letter
   * uppercase letter
   * number
-* Keep asking the user to enter the details again, until they are valid
-* Use proper exit codes if something does wrong while using the CSV file
+* Keep asking the user to enter the details again, until they are valid.
+* Use proper exit codes if something goes wrong while using the CSV file.
 
 ## Task 2 - Drive scanning module
 Write a Python module ```dirscanner.py``` that contains a function ```scan()``` which takes two parameters:
-1. A directory path
-1. An optional extention (e.g. .txt)
-The function should return a list of files found in the directory. Uswe proper DocString to ducument your module
+1. A directory path (e.g.: 's:\myfiles')
+1. An optional extention (e.g.: '.txt')
+The function should return a list of files found in the directory. Use proper DocString to ducument your module.
 
 ## Task 3 - Web server
-Write another script ```server.py``` that will act as a web server running on localhost:8080  
-Specifications:
-* Listen only to GET requests
-* Show the login page by default
-* Takes directory path a command line argument, this will be the base directory.
+Write a final script ```server.py``` that will act as a web server running on localhost:8080 with the following specifications:
+* Listens only for GET requests (ignore POST etc.)
+* Create a Login Page form (a file called ```login.html```) with input fields for email and password. Show this login page by default (if GET does not specify file to show). The form action should be '/login'
+* Takes a path as a command line argument, this will be the referred to as **base directory**.
+* Credential validation: Your script must contain a function called ```valid_creds(email, pw)``` that opens ```users.csv```, checks if any row matches the paameters and returns True/False accordingly
 
-### Credential validation
-Your script must contain a function called ```valid_creds(email, pw)``` that opens ```users.csv```, checks if any row matches the paameters and returns True/False accordingly
-
-### Login page (/login): 
-* Display a Login Page form (```login.html```) with input fields for email and password.
-* If the credentials match, using ```valid_creds()```, show the main page, else show the login page again.
+### Login feature (/login): 
+* Recieves requests from the login form
+* Uses ```valid_creds()``` to check if the credentials match:
+    * show the main page if they match
+    * else show the login page again.
 
 ### Main page: 
 * Available only after valid login (no direct URL)
 * Contains the following lists (using ```dirscanner``` module):
-  1. List of all base directory TXT files
-  1. List of the base directory TXT files that changed int he last 24 hours
-* Both lists should be made up of links that allows the user to download the files
+  1. List of all TXT files in the base directory
+  1. List the TXT files in the base directory that changed in the last 24 hours
+
+### Download file (/getfile?f=xyz.txt): 
+* Both lists in the main page should be made up of links that allows the user to download the files.
+* When one of these links are clicked, you need to fetch the specified file from the base directory:
+    * If found, open it and send it to the user
+    * If not found, send a 404.
