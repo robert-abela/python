@@ -21,7 +21,7 @@ Write a Python module ```dirscanner.py``` that contains a function ```scan()``` 
 1. An optional extention (e.g. .txt)
 The function should return a list of files found in the directory. Uswe proper DocString to ducument your module
 
-## Task 3 - Web Server
+## Task 3 - Web server
 Write another script ```server.py``` that will act as a web server running on localhost:8080  
 Specifications:
 * Listen only to GET requests
