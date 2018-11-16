@@ -8,8 +8,8 @@ Write a Python console application called ```register_user.py``` that when execu
 
 The application uses a CSV file called ```users.csv``` that has the following format:
 ~~~
-user1@mail.ru,Pazhalooysta
-user2@mail.in,Namaste
+user1@mail.ru,Pazhalooysta1
+user2@mail.in,Namaste2
 ~~~
 Use proper exit codes if something goes wrong while using the CSV file. Use functions as much as possible to make your code more readable and proper DocStrings to document each function.
 
@@ -23,7 +23,7 @@ Lists all the user in the CSV file in a numbered, one user per line as shown bel
 ### Add new user
 Asks the user to enter an email and a password and appends them to the CSV file. Specifications:
 * Perform some basic validation on the email, at least you should have 5 validation rules.
-* The password cannot be shorter than 5 characters and must contains 2 of the following:
+* The password cannot be shorter than 5 characters and must contain all of the following:
     * lowercase letter
     * uppercase letter
     * number
