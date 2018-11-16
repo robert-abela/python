@@ -1,19 +1,29 @@
 # DRAFT - Might still change
 
 ## Task 1 - Registration
-Write a Python script called ```register_user.py``` that asks the user to enter an email and a password and appends them in ```users.csv``` in the following format:
+Write a Python console application called ```register_user.py``` that when executed offers the user a menu with 3 options:
+1. List all users 
+2. Add new user  
+3. Exit
+
+The application uses a CSV file called ```users.csv``` that has the following format:
 ~~~
 user1@mail.ru,Pazhalooysta
 user2@mail.in,Namaste
 ~~~
-Specifications:
+Use proper exit codes if something goes wrong while using the CSV file.
+
+### List all users
+Lists all the user in the CSV file.
+
+### Add new user
+Asks the user to enter an email and a password and appends them to the CSV file. Specifications:
 * Perform some basic validation on the email, at least you should have 5 validation rules.
 * The password cannot be shorter than 5 characters and must contains 2 of the following:
   * lowercase letter
   * uppercase letter
   * number
 * Keep asking the user to enter the details again, until they are valid.
-* Use proper exit codes if something goes wrong while using the CSV file.
 
 ## Task 2 - Drive scanning module
 Write a Python module ```dirscanner.py``` that contains a function ```scan()``` which takes two parameters:
