@@ -11,7 +11,7 @@ The application uses a CSV file called ```users.csv``` that has the following fo
 user1@mail.ru,Pazhalooysta
 user2@mail.in,Namaste
 ~~~
-Use proper exit codes if something goes wrong while using the CSV file.
+Use proper exit codes if something goes wrong while using the CSV file. Use functions as much as possible to make your code more readable and proper DocStrings to ducument each function.
 
 ### List all users
 Lists all the user in the CSV file, one user per line. At the end, print out the total number of users.
@@ -37,6 +37,7 @@ Write a final script ```server.py``` that will act as a web server running on lo
 * Create a Login Page form (a file called ```login.html```) with input fields for email and password. Show this login page by default (if GET does not specify file to show). The form action should be '/login'
 * Takes a path as a command line argument, this will be the referred to as **base directory**.
 * Credential validation: Your script must contain a function called ```valid_creds(email, pw)``` that opens ```users.csv```, checks if any row matches the paameters and returns True/False accordingly
+* Use functions as much as possible to make your code more readable and proper DocStrings to ducument each function.
 
 ### Login feature (/login): 
 * Recieves requests from the login form
