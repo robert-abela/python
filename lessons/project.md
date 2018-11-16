@@ -32,14 +32,14 @@ Asks the user to enter an email and a password and appends them to the CSV file.
 ## Task 2 - Drive scanning module
 Write a Python module ```dirscanner.py``` that contains a function ```scan()``` which takes two parameters:
 1. A directory path (e.g.: 's:\myfiles')
-1. An optional extension (e.g.: '.txt')
-The function should return a list of files found in the directory. Use proper DocString to document your module.
+1. An extension (e.g.: '.txt')
+The function should return a list of file names found in the directory that have been modified within the last 24 hours. Use proper DocString to document your module.
 
 ## Task 3 - Web server
 Write a final script ```server.py``` that will act as a web server running on localhost:8080 with the following specifications:
 * Listens only for GET requests (ignore POST etc.)
-* Create a Login Page (a file called ```login.html```) containing a HTML forl with input fields for email and password. Show this login page by default (if GET does not specify file to show). The form action should be '/login'
-* Takes a path as a command line argument, this will be the referred to as **base directory**.
+* Create a Login Page (a file called ```login.html```) containing a HTML form with input fields for email and password. Show this login page by default (if GET does not specify file to show). The form action should be ```/login```.
+* Takes a path as a command line argument, this will be the referred to as **base directory**. Do not run the server if this is missing or invalid.
 * Credential validation: Your script must contain a function called ```valid_creds(email, pw)``` that opens ```users.csv```, checks if any row matches the parameters and returns True/False accordingly
 * Use functions as much as possible to make your code more readable and proper DocStrings to document each function.
 
@@ -51,7 +51,7 @@ Write a final script ```server.py``` that will act as a web server running on lo
 
 ### Main page: 
 * Available only after valid login (no direct URL)
-* Contains a list (using ```dirscanner``` module) of all TXT files in the base directory that changed in the last 24 hours
+* Contains a list of all TXT files in the base directory that changed in the last 24 hours (using ```dirscanner.scan()```) 
 
 ### Download file (/getfile?f=xyz.txt): 
 * Both lists in the main page should be made up of links that allows the user to download the files.
