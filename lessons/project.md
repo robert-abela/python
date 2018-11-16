@@ -51,9 +51,7 @@ Write a final script ```server.py``` that will act as a web server running on lo
 
 ### Main page: 
 * Available only after valid login (no direct URL)
-* Contains the following lists (using ```dirscanner``` module):
-    * List of all TXT files in the base directory
-    * List the TXT files in the base directory that changed in the last 24 hours
+* Contains a list (using ```dirscanner``` module) of all TXT files in the base directory that changed in the last 24 hours
 
 ### Download file (/getfile?f=xyz.txt): 
 * Both lists in the main page should be made up of links that allows the user to download the files.
