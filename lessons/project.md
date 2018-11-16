@@ -14,7 +14,7 @@ user2@mail.in,Namaste
 Use proper exit codes if something goes wrong while using the CSV file.
 
 ### List all users
-Lists all the user in the CSV file.
+Lists all the user in the CSV file, one user per line. At the end, print out the total number of users.
 
 ### Add new user
 Asks the user to enter an email and a password and appends them to the CSV file. Specifications:
