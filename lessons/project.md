@@ -1,4 +1,4 @@
-# DRAFT - Might still change
+# Project (deadline 7th January 2019)
 
 ## Task 1 - Registration
 Write a Python console application called ```register_user.py``` that when executed offers the user a menu with 3 options:
