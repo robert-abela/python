@@ -32,7 +32,7 @@ Asks the user to enter an email and a password and appends them to the CSV file.
 ## Task 2 - Drive scanning module
 Write a Python module ```dirscanner.py``` that contains a function ```scan()``` which takes two parameters:
 1. A directory path (e.g.: 's:\myfiles')
-1. An extension (e.g.: '.txt')
+1. An extension (e.g.: '.txt')  
 The function should return a list of file names found in the directory that have been modified within the last 24 hours. Use proper DocString to document your module.
 
 ## Task 3 - Web server
