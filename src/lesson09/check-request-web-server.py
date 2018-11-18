@@ -7,8 +7,11 @@ indexHTML = ""
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
-        request_query = urlparse(self.path).path
-        if request_query == "/stop":
+        parsed = urlparse(self.path)
+        params = parse_qs(parsed.query)
+        file = params['file'][0]
+        
+        if parsed.path == "/stop":
             exit()
         else:
             self.send_response(200)
