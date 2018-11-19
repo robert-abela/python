@@ -34,6 +34,6 @@ Detailed explaination of home assignment
 1. Exam (28 Nov)  
 90 minutes  
 [Practice problems](https://adriann.github.io/programming_problems.html)
-1. Question & answer (03 Dec)  
+1. Question & answer (03 Dec at 6.30pm)  
 Questions and issues about project (90 minutes)
 
