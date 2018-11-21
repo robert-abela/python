@@ -55,7 +55,7 @@ Write a final script ```server.py``` that will act as a web server running on lo
 * Contains a list of all TXT files in the base directory that changed in the last 24 hours (using ```dirscanner.scan()```) 
 
 ### Download file (/getfile?f=xyz.txt): 
-* Both lists in the main page should be made up of links that allows the user to download the files.
+* The list in the main page should be made up of links that allows the user to download the files.
 * When one of these links are clicked, you need to fetch the specified file from the base directory:
     * If found, open it and send it to the user
     * If not found, send a 404.
