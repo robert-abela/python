@@ -62,7 +62,7 @@ Write a final script ```server.py``` that will act as a web server running on lo
 
 ## Marking scheme
 Task | Marks
----  | --- 
+:--- | :--- 
 **1 - Registration** | **15 marks**
 List all users | 4
 Add new user: validation | 5
