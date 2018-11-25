@@ -59,3 +59,12 @@ Write a final script ```server.py``` that will act as a web server running on lo
 * When one of these links are clicked, you need to fetch the specified file from the base directory:
     * If found, open it and send it to the user
     * If not found, send a 404.
+
+## Marking scheme
+Task | Marks
+--- | --- 
+**Task 1 - Registration** | Total 15 marks
+List all users | 4
+Add new user: validation | 5
+Add new user: saving to file | 5
+Exit | 1
