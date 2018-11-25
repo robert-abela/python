@@ -1,4 +1,4 @@
-# Project (deadline 7th January 2019)
+# Project
 
 ## Task 1 - Registration
 Write a Python console application called ```register_user.py``` that when executed offers the user a menu with 3 options:
@@ -78,3 +78,7 @@ Showing login form by default | 5
 Functional credential validation | 5
 Main page showing list of files | 5
 File download feature | 5
+
+## Submission
+Deadline is 7th January 2019 at 23:59  
+Send your 3 python files to robert.abela@mcast.edu.mt  
