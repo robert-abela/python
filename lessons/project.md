@@ -63,12 +63,18 @@ Write a final script ```server.py``` that will act as a web server running on lo
 ## Marking scheme
 Task | Marks
 ---  | --- 
-**1 - Registration** | Total 15 marks
+**1 - Registration** | **15 marks**
 List all users | 4
 Add new user: validation | 5
-Add new user: saving to file | 5
+Add new user: saving to CSV file | 5
 Exit | 1
-**2 - Drive scanning module** | Total 10 marks
+**2 - Drive scanning module** | **10 marks**
 Scanning for file extension | 5
-Modified int he last 24 hrs | 5
-**3 - Web server** | Total 25 marks
+Modified in the last 24 hrs | 5
+**3 - Web server** | **25 marks**
+Listen on localhost:8080 for GET request | 3
+Base directory using command line arguments | 2
+Showing login form by default | 5
+Functional credential validation | 5
+Main page showing list of files | 5
+File download feature | 5
