@@ -35,5 +35,6 @@ Detailed explaination of home assignment
 90 minutes  
 [Practice problems](https://adriann.github.io/programming_problems.html)
 1. Question & answer (12 Dec)  
-Questions and issues about project (90 minutes)
+90 minutes  
+Questions and issues about project
 
