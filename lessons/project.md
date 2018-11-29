@@ -81,4 +81,4 @@ File download feature | 5
 
 ## Submission
 Deadline is 7th January 2019 at 23:59  
-Send your 3 python files to robert.abela@mcast.edu.mt  
+Send your 3 python scripts (and any other file) to robert.abela@mcast.edu.mt  
