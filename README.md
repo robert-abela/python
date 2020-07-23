@@ -9,32 +9,31 @@ Learning Outcomes
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 # Course lessons
-1. [Introduction](lessons/01.md) (22 Oct)  
+1. [Introduction](lessons/01.md) (3 Aug?)
 Automation, programming paradigms, scripts vs. programs, setting up
-1. [Hello world](lessons/02.md) (24 Oct)  
+1. [Hello world](lessons/02.md) (5 Aug?)
 First scripts, data types, strings, lists and similar structures, using libraries
-1. [Control structures](lessons/03.md) (29 Oct)  
+1. [Control structures](lessons/03.md) (10 Aug?)
 Conditions, loops
-1. [Functions](lessons/04.md) (31 Oct)  
+1. [Functions](lessons/04.md) (17 Aug?)
 Variable scope, functions, arguments
-1. [More advanced topics](lessons/05.md) (05 Nov)  
+1. [More advanced topics](lessons/05.md) (19 Aug?)
 Proper documentation, modules, exception handling, comments
-1. [Menu-driven apps](lessons/06.md) (07 Nov)  
+1. [Menu-driven apps](lessons/06.md) (24 Aug?)
 Console scripts with user interaction
-1. [File operations](lessons/07.md) (12 Nov)  
+1. [File operations](lessons/07.md) (26 Aug?)
 Reading from/writing to a file, listing directory contents, searching, sorting
-1. [Web technologies](lessons/08.md) (14 Nov)  
+1. [Web technologies](lessons/08.md) (31 Aug?)
 Client/server architecture, HTTP, HTML, JS, CSS
-1. [A simple web server](lessons/09.md) (19 Nov)  
+1. [A simple web server](lessons/09.md) (2 Sep?)
 Create a simple web server in Python
-1. [Final topics](lessons/10.md) (21 Nov)  
+1. [Final topics](lessons/10.md) (7 Sep?)
 Scheduled tasks, exit codes, command line arguments, final revision
-1. [Project](lessons/project.md) (26 Nov)  
+1. [Project](lessons/project.md) (9 Sep?)
 Detailed explaination of home assignment
-1. Exam (28 Nov)  
-90 minutes  
-[Practice problems](https://adriann.github.io/programming_problems.html)
-1. Question & answer (12 Dec)  
+1. Question & answer (21 Sep?)
 90 minutes  
 Questions and issues about project
-
+1. Exam (23 Sep?)
+90 minutes
+[Practice problems](https://adriann.github.io/programming_problems.html)
