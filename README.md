@@ -9,9 +9,9 @@ Learning Outcomes
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 # Course lessons
-1. [Introduction](lessons/01.md) (3 Aug)  
+1. [Introduction & Hello world](lessons/01.md) (3 Aug)  
 Automation, programming paradigms, scripts vs. programs, setting up
-1. [Hello world](lessons/02.md) (5 Aug)  
+1. [First Scripts & variables](lessons/02.md) (5 Aug)  
 First scripts, data types, strings, lists and similar structures, using libraries
 1. [Control structures](lessons/03.md) (17 Aug)  
 Conditions, loops
