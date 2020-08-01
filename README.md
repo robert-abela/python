@@ -9,27 +9,27 @@ Learning Outcomes
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 # Course lessons
-1. [Introduction](lessons/01.md) (3 Aug?)  
+1. [Introduction](lessons/01.md) (3 Aug)  
 Automation, programming paradigms, scripts vs. programs, setting up
-1. [Hello world](lessons/02.md) (5 Aug?)  
+1. [Hello world](lessons/02.md) (5 Aug)  
 First scripts, data types, strings, lists and similar structures, using libraries
-1. [Control structures](lessons/03.md) (10 Aug?)  
+1. [Control structures](lessons/03.md) (17 Aug)  
 Conditions, loops
-1. [Functions](lessons/04.md) (17 Aug?)  
+1. [Functions](lessons/04.md) (19 Aug)  
 Variable scope, functions, arguments
-1. [More advanced topics](lessons/05.md) (19 Aug?)  
+1. [More advanced topics](lessons/05.md) (24 Aug?)  
 Proper documentation, modules, exception handling, comments
-1. [Menu-driven apps](lessons/06.md) (24 Aug?)  
+1. [Menu-driven apps](lessons/06.md) (26 Aug?)  
 Console scripts with user interaction
-1. [File operations](lessons/07.md) (26 Aug?)  
+1. [File operations](lessons/07.md) (31 Aug?)  
 Reading from/writing to a file, listing directory contents, searching, sorting
-1. [Web technologies](lessons/08.md) (31 Aug?)  
+1. [Web technologies](lessons/08.md) (2 Sep?)  
 Client/server architecture, HTTP, HTML, JS, CSS
-1. [A simple web server](lessons/09.md) (2 Sep?)  
+1. [A simple web server](lessons/09.md) (7 Sep?)  
 Create a simple web server in Python
-1. [Final topics](lessons/10.md) (7 Sep?)  
+1. [Final topics](lessons/10.md) (9 Sep?)  
 Scheduled tasks, exit codes, command line arguments, final revision
-1. [Project](lessons/project.md) (9 Sep?)  
+1. [Project](lessons/project.md) (14 Sep?)  
 Detailed explaination of home assignment
 1. Question & answer (21 Sep?)  
 90 minutes  
