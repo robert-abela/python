@@ -1,6 +1,6 @@
 #BMI Calculator
-height = float(input("Enter height in metres:    "))
 weight = float(input("Enter weight in kilograms: "))
+height = float(input("Enter height in metres:    "))
 
 bmi = weight / (height*height)
 label = ''
