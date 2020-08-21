@@ -17,9 +17,9 @@ First scripts, data types, strings, lists and similar structures, using librarie
 Conditions, loops
 1. [Functions](lessons/04.md) (19 Aug)  
 Variable scope, functions, arguments
-1. [More advanced topics](lessons/05.md) (24 Aug)  
+1. [DocStrings, Exceptions and Modules](lessons/05.md) (24 Aug)  
 Proper documentation, modules, exception handling, comments
-1. [Menu-driven apps](lessons/06.md) (26 Aug)  
+1. [PyDoc and Menu-driven apps](lessons/06.md) (26 Aug)  
 Console scripts with user interaction
 1. [File operations](lessons/07.md) (31 Aug)  
 Reading from/writing to a file, listing directory contents, searching, sorting
