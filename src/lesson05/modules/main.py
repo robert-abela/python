@@ -7,7 +7,7 @@ def do_some_magic():
 
 def main():
     ans = input('Do you want to see some magic? ')
-    if ans == 'yes':
+    if ans.lower() == 'yes':
       do_some_magic()
     else:
       print('Ok, Bye!')
