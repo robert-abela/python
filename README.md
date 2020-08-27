@@ -25,11 +25,11 @@ Console scripts with user interaction
 Reading from/writing to a file, listing directory contents, searching, sorting
 1. [Web technologies](lessons/08.md) (2 Sep)  
 Client/server architecture, HTTP, HTML, JS, CSS
-1. [Web Scraping](lessons/11.md) (7 Sep)  
-todo
-1. [A simple web server](lessons/09.md) (9 Sep)  
+1. [Web Scraping](lessons/09.md) (7 Sep)  
+Basics of scraping, BeautifulSoup
+1. [A simple web server](lessons/10.md) (9 Sep)  
 Create a simple web server in Python
-1. [Final topics](lessons/10.md) (14 Sep)  
+1. [Final topics](lessons/11.md) (14 Sep)  
 Scheduled tasks, exit codes, command line arguments, final revision
 1. [Project, Q&A](lessons/project.md) (16 Sep)  
 Detailed explaination of home assignment  
