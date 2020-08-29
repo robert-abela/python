@@ -35,5 +35,5 @@ Scheduled tasks, exit codes, command line arguments, final revision
 Detailed explaination of home assignment  
 Final Question & Answer  
 (1 hour) 
-1. Exam (28 Sep)  
+1. Exam (23 or 28 Sep)  
 [Practice problems](https://adriann.github.io/programming_problems.html)
