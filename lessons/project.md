@@ -60,6 +60,12 @@ Write a final script ```server.py``` that will act as a web server running on lo
     * If found, open it and send it to the user
     * If not found, send a 404.-->
 
+## Task 3b - Web scraper
+### Parse and extract information
+### Save to CSV
+### Advanced search features
+### Pagination
+
 ## Marking scheme
 Task | Marks
 :--- | :--- 
@@ -77,6 +83,12 @@ Base directory using command line arguments | 2
 Showing login form by default | 5
 Functional credential validation | 5
 Main page showing list of files | 5
+<!--File download feature | 5-->
+**3b - Web scraper** | **20 marks**
+Parse and extract information from a search page | 5
+Save the information to a CSV file (at least 3 columns) | 5
+Use advanced search features (at least 2 parameters) | 5
+Download the first 5 pages of search results | 5
 <!--File download feature | 5-->
 
 ## Submission
