@@ -61,7 +61,7 @@ Write a final script ```server.py``` that will act as a web server running on lo
     * If not found, send a 404.-->
 
 ## Task 3b - Web scraper
-Select a website that you like which features search with advanced filtering options (e.g. [maltapark](https://maltapark.com), [ebay](https://ebay.com), [graigslist](https://graigslist.com). [aliexpress](https://aliexpress.com), [imdb](https://imdb.com) etc.)
+Select a website that you like which features search with advanced filtering options (e.g. [maltapark](https://maltapark.com), [ebay](https://ebay.com), [graigslist](https://craigslist.org). [aliexpress](https://aliexpress.com), [imdb](https://imdb.com) etc.)
 ### Parse and extract information
 ### Save to CSV
 ### Advanced search features
