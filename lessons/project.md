@@ -80,5 +80,5 @@ Main page showing list of files | 5
 <!--File download feature | 5-->
 
 ## Submission
-Deadline is 7th January 2020 at 23:59  
+Deadline is 9th November 2020 at 23:59  
 Send your python scripts (and any other file) by email or on Teams  
