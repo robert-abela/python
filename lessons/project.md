@@ -83,7 +83,6 @@ Base directory using command line arguments | 2
 Showing login form by default | 5
 Functional credential validation | 5
 Main page showing list of files | 5
-<!--File download feature | 5-->
 **3b - Web scraper** | **20 marks**
 Parse and extract information from a search page | 5
 Save the information to a CSV file (at least 3 columns) | 5
