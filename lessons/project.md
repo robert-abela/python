@@ -61,11 +61,19 @@ Write a final script ```server.py``` that will act as a web server running on lo
     * If not found, send a 404.-->
 
 ## Task 3b - Web scraper
-Select a website that you like which features search with advanced filtering options (e.g. [maltapark](https://maltapark.com), [ebay](https://ebay.com), [graigslist](https://craigslist.org). [aliexpress](https://aliexpress.com), [imdb](https://imdb.com) etc.)
+Select a website that you like which features search with advanced filtering options (e.g. [maltapark](https://maltapark.com), [ebay](https://ebay.com), [graigslist](https://craigslist.org). [aliexpress](https://aliexpress.com), [imdb](https://imdb.com)). Investigate how the search features work, keeping an eye on URLs, HTTP parameters, form data and any other relevant information.
+
 ### Parse and extract information
+Write a script called ```scraper.py``` that performs a search and parses the search results using BeautifulSoup (or any other library if you prefer). In the console print basic information about the items found (e.g. title).
+
 ### Save to CSV
+Update your script to get at least three information points on each search results (e.g. description, cost, rating). Save your data to a CSV file instead of printing it to the console. Make sure that your CSV can be opened by spreadsheets software such as Excel.
+
 ### Advanced search features
+Upgrade your script to use the advanced search filtering the site provides.  Filer the search result by two properties (apart from the search term). These could be category, price range, condition, rating etc.
+
 ### Pagination
+Finally upgrade your script so that it is able to get at least the first five pages of results, and save the whole set in a single CSV file.
 
 ## Marking scheme
 Task | Marks
