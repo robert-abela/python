@@ -36,6 +36,6 @@ Detailed explaination of home assignment
 Final Question & Answer  
 (1 hour) 
 1. Exam (23 or 28 Sep)  
-[Practice problems](https://adriann.github.io/programming_problems.html)
+[Revision problems](lessons/revision.md)
 1. Project Deadine (9 Nov)  
 Submit by email or on Teams
