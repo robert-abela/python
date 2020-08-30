@@ -30,12 +30,12 @@ Basics of scraping, BeautifulSoup
 1. [A simple web server](lessons/10.md) (9 Sep)  
 Create a simple web server in Python
 1. [Final topics](lessons/11.md) (14 Sep)  
-Scheduled tasks, exit codes, command line arguments, final revision
+Scheduled tasks, exit codes, command line arguments  
+[Final revision tasks](lessons/revision.md)
 1. [Project, Q&A](lessons/project.md) (16 Sep)  
 Detailed explaination of home assignment  
 Final Question & Answer  
 (1 hour) 
 1. Exam (23 or 28 Sep)  
-[Revision tasks](lessons/revision.md)
 1. Project Deadine (9 Nov)  
 Submit by email or on Teams
