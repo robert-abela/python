@@ -1,6 +1,6 @@
 # Revision tasks
 
-Note: these tasks are mostly a selection of what can be found in [Simple Programming Problems](https://adriann.github.io/programming_problems.html)
+Note: these tasks are mostly a selection of what can be found in [Simple Programming Problems](https://adriann.github.io/programming_problems.html).
 
 ## Basic Tasks
 1. Write a script that asks the user for their name and greets them with their name.
