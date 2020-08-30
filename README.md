@@ -19,14 +19,14 @@ Conditions, loops
 Variable scope, functions, arguments
 1. [DocStrings, Exceptions and Modules](lessons/05.md) (24 Aug)  
 Proper documentation, modules, exception handling, comments
-1. [PyDoc and Menu-driven apps](lessons/06.md) (26 Aug)  
+1. [PyDoc and menu-driven apps](lessons/06.md) (26 Aug)  
 Console scripts with user interaction
 1. [File operations](lessons/07.md) (31 Aug)  
 Reading from/writing to a file, listing directory contents, searching, sorting
 1. [Web technologies](lessons/08.md) (2 Sep)  
 Client/server architecture, HTTP, HTML, JS, CSS
-1. [Web Scraping](lessons/09.md) (7 Sep)  
-Basics of scraping, BeautifulSoup
+1. [Web scraping](lessons/09.md) (7 Sep)  
+Basics of scraping, Beautiful Soup
 1. [A simple web server](lessons/10.md) (9 Sep)  
 Create a simple web server in Python
 1. [Final topics](lessons/11.md) (14 Sep)  
@@ -34,7 +34,7 @@ Scheduled tasks, exit codes, command line arguments
 [Final revision tasks](lessons/revision.md)
 1. [Project, Q&A](lessons/project.md) (16 Sep)  
 Detailed explaination of home assignment  
-Final Question & Answer  
+Final Questions & Answers  
 (1 hour) 
 1. Exam (23 or 28 Sep)  
 1. Project Deadine (9 Nov)  
