@@ -8,7 +8,7 @@ Note: these tasks are mostly a selection of what can be found in [Simple Program
 1. Write a script that asks the user for a number n and prints the sum of the numbers 1 to n
 1. Modify the previous script such that only multiples of three or five are considered in the sum  
 For example 3, 5, 6, 9, 10, 12, 15 for n=17
-1. Write a script that asks the user for a number n and gives them the possibility to choose between computing the or the product of 1,…,n
+1. Write a script that asks the user for a number n and gives them the possibility to choose between computing the sum or the product of 1,…,n
 1. Write a script that uses loops to prints a multiplication table for numbers up to 12
 1. Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed.
 
