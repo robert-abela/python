@@ -12,7 +12,7 @@ Note: these tasks are mostly a selection of what can be found in [Simple Program
 1. Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. It counts only as one try if they input the same number multiple times consecutively.
 
 ## Challenging Tasks
-1. Write a script that prints the next 20 leap years. Hint: [algorithm](https://www.javatpoint.com/python-check-leap-year)
+1. Write a script that prints the next 20 leap years. Hint: [Leap year algorithm](https://www.javatpoint.com/python-check-leap-year)
 1. Write a function that tests whether a string is a palindrome.
 1. Write two functions that compute the sum of the numbers in a list: using a for-loop and  while-loop
 1. Write a function that rotates a list by k elements. For example [1,2,3,4,5,6] rotated by two becomes [3,4,5,6,1,2]. 
