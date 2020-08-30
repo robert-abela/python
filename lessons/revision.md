@@ -10,7 +10,9 @@ Note: these tasks are mostly a selection of what can be found in [Simple Program
 For example 3, 5, 6, 9, 10, 12, 15 for n=17
 1. Write a script that asks the user for a number n and gives them the possibility to choose between computing the sum or the product of 1,…,n
 1. Write a script that uses loops to print a multiplication table for numbers up to 12
-1. Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed.
+1. Write a guessing game where the user has to guess a secret number (1...100).  
+After every guess the program tells the user whether their number was too large or too small.  
+At the end the number of tries needed should be printed.
 
 ## Challenging Tasks
 1. Write a script that prints the next 20 leap years  
