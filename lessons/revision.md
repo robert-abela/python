@@ -18,4 +18,4 @@ Note: these tasks are mostly a selection of what can be found in [Simple Program
 1. Write a function that rotates a list by k elements. For example [1,2,3,4,5,6] rotated by two becomes [3,4,5,6,1,2]. 
 1. Write a function that takes a number and returns a list of its digits. So for 2342 it should return [2,3,4,2].
 1. Write function that converts a normal sentence to a shouted one. So "Come here now" becomes "COME! HERE! NOW!".
-1. Write a script that converts numbers to [Morse code](https://morsecode.world/international/translator.html). So 38 becomes ```...-- ---..```.
+1. Write a script that converts numbers to [Morse code](https://morsecode.world/international/translator.html). So 38 becomes ```...-- ---..```
