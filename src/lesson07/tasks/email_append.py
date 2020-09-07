@@ -1,8 +1,8 @@
 email = input('Enter email: ')
 if len(email) < 6:
     print('Error: mail address too short')
-elif '@' not in email:
-    print('Error: missing @')
+elif email.count('@') != 1 :
+    print('Error: email must contain exactly one @')
 elif email.startswith('@') or email.endswith('@'):
     print('Error: @ at start or end')
 elif '.' not in email:
