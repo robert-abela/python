@@ -7,5 +7,5 @@ class MyServer(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(bytes("<html><body>Hello!</body></html>", "utf-8"))
 
-myServer = HTTPServer(("", 80), MyServer)
+myServer = HTTPServer(("localhost", 80), MyServer)
 myServer.serve_forever()

@@ -11,7 +11,7 @@ class MyServer(BaseHTTPRequestHandler):
         else:
             user = 'unknown user'
 
-        msg = "<html><body>Hello "+ user+"</body></html>"
+        msg = "<html><body>Hello "+user+"</body></html>"
         
         self.send_response(200)
         self.send_header("Content-type", "text/html")

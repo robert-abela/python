@@ -11,11 +11,10 @@ class MyServer(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(bytes(indexHTML, "utf-8"))
 
-if __name__ == "__main__":
-    try:
-        html = open("index.html", "r")
-        indexHTML = html.read()
-        myServer = HTTPServer((hostName, hostPort), MyServer)
-        myServer.serve_forever()
-    except FileNotFoundError:
-        print(asctime(), "Start failed, index.html not found")
+try:
+    html = open("index.html", "r")
+    indexHTML = html.read()
+    myServer = HTTPServer((hostName, hostPort), MyServer)
+    myServer.serve_forever()
+except FileNotFoundError:
+    print("Start failed, index.html not found")

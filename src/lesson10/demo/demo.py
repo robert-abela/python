@@ -1,6 +1,5 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
-import sys
 
 hostName = "localhost"
 hostPort = 80
@@ -12,12 +11,11 @@ class MyServer(BaseHTTPRequestHandler):
         params = parse_qs(parsed.query)
 
         if 'file' in params:
-            file = params['file'][0]
+            file = params['file'][0] #there might be more than 1 value
             print(file)
         
         if parsed.path == "/stop":
-            myServer.server_close()
-            sys.exit()
+            exit()
         else:
             self.send_response(200)
             self.send_header("Content-type", "text/html")
