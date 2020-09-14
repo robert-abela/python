@@ -7,7 +7,7 @@ except:
 	print("Failed to get HTML from the Internet")
 else:
 	soup = BeautifulSoup(page.content, 'html.parser')
-	ul = soup.find('ul', class_="list-recent-events") 
+	ul = soup.find('ul', class_="list-recent-events")
 	links = ul.find_all('a')
 	for link in links:
 		print(link.text)

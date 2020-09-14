@@ -3,12 +3,13 @@ import sys
 if len(sys.argv) < 4:
     print('there are some missing parameters')
     exit(1)
+
 try:
     n1 = int(sys.argv[1])
     sign = sys.argv[2]
     n2 = int(sys.argv[3])
 except ValueError:
-    print('there are some invalid number')
+    print('there is some invalid number')
     exit(2)
 else:
     if sign == '+':
