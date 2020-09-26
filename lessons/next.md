@@ -13,6 +13,6 @@
 * https://www.um.edu.mt/courses/studyunit/las3004
 
 ## Advanced Programming
-* Object Oriented Programming
-* Server-side web frameworks
-* APIs
+* [Object Oriented Programming](https://realpython.com/python3-object-oriented-programming/)
+* [Server-side web frameworks](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
+* [APIs](https://www.dataquest.io/blog/python-api-tutorial/)
