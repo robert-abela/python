@@ -11,3 +11,8 @@
 * https://docs.microsoft.com/en-us/learn/paths/foundations-data-science/
 * https://www.edx.org/course/subject/data-science
 * https://www.um.edu.mt/courses/studyunit/las3004
+
+## More Advanced Programming
+* Object Oriented Programming
+* Server-side web frameworks
+* APIs
