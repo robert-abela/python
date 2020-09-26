@@ -12,7 +12,7 @@
 * https://www.edx.org/course/subject/data-science
 * https://www.um.edu.mt/courses/studyunit/las3004
 
-## More Advanced Programming
+## Advanced Programming
 * Object Oriented Programming
 * Server-side web frameworks
 * APIs
