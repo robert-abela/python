@@ -8,6 +8,8 @@ Learning Outcomes
 
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
+A very good book to have during this course: [Learn Python, Break Python](https://learnpythonbreakpython.com/)
+
 # Course lessons
 1. [Introduction & Hello world](lessons/01.md) (3 Aug)  
 Automation, programming paradigms, scripts vs. programs, setting up
