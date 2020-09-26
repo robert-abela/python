@@ -39,3 +39,4 @@ Final Questions & Answers
 1. Exam (23 Sep)  
 1. Project Deadine (9 Nov)  
 Submit by email or on Teams
+1. [What should you do next?](lessons/next.md)
