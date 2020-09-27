@@ -45,6 +45,7 @@ def notify(msg, barcode):
 	p_alert.join()
 
 def check_for_updates(ignore_rows, barcode):
+	Beep(7500, 250) #heartbeat
 	driver = setup(URL+barcode)
 	rows = get_rows(driver)
 	if len(rows) > ignore_rows:
