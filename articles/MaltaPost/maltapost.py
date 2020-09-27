@@ -52,7 +52,7 @@ def check_for_updates(ignore_rows, barcode):
 		div = rows[-1].find_element_by_tag_name('div')
 		notify(div.text, barcode)
 
-	driver.close()
+	driver.quit()
 	return len(rows)
 
 def initialise():
