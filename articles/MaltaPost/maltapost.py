@@ -49,7 +49,7 @@ def check_for_updates(ignore_rows, barcode):
 	driver = setup(URL+barcode)
 	rows = get_rows(driver)
 	if len(rows) > ignore_rows:
-		div = rows[-1].find_element_by_tag_name('div')
+		div = rows[0].find_element_by_tag_name('div')
 		notify(div.text, barcode)
 
 	driver.quit()
