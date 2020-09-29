@@ -15,4 +15,5 @@
 ## Advanced Programming
 * [Object Oriented Programming](https://realpython.com/python3-object-oriented-programming/)
 * [Server-side web frameworks](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
-* [APIs](https://www.dataquest.io/blog/python-api-tutorial/)
+* [APIs 1](https://www.dataquest.io/blog/python-api-tutorial/) 
+* [APIs 2](https://towardsdatascience.com/how-to-interact-with-apis-in-python-10efece03d2b)
