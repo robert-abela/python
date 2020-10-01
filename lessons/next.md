@@ -17,3 +17,4 @@
 * [Server-side web frameworks](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
 * [APIs 1](https://www.dataquest.io/blog/python-api-tutorial/) 
 * [APIs 2](https://towardsdatascience.com/how-to-interact-with-apis-in-python-10efece03d2b)
+* [Python Bootcamp] (https://iict.mcast.edu.mt/python-programming-bootcamp/)
