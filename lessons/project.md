@@ -14,7 +14,7 @@ user2@mail.in,Namaste2
 Use proper exit codes if something goes wrong while using the CSV file. Use functions as much as possible to make your code more readable and proper DocStrings to document each function.
 
 ### List all users
-Lists all the user in the CSV file in a numbered, one user per line as shown below:
+Lists all the user in the CSV file in a numbered list, one user per line as shown below:
 ~~~
 1. user1@mail.ru
 2. user2@mail.in
